@@ -7,8 +7,10 @@ pipeline {
                     image 'python:2-alpine'
                 }
             }
+
             steps {
-                sh 'python --version'
+                git branch: 'main', url: 'https://github.com/znhv/hello_world'
+                sh 'python main.py'
             }
 
             post {
