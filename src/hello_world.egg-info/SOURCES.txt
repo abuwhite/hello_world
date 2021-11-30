@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-setup.cfg
-src/hello_world.egg-info/PKG-INFO
-src/hello_world.egg-info/SOURCES.txt
-src/hello_world.egg-info/dependency_links.txt
-src/hello_world.egg-info/top_level.txt
